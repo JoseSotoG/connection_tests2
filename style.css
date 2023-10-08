@@ -47,7 +47,14 @@ footer{
 .footer__logo{
     display: flex;
     align-items: center;
+    color: white;
 }
 .footer__logo>img{
     width: 2rem;
+}
+footer>ul{
+    list-style: none;
+}
+footer>ul a{
+    color: white;
 }
