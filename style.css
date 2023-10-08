@@ -26,10 +26,23 @@ header>ul>li{
 }
 main{
     display: flex;
+    padding-top: 1rem;
 }
 main>aside{
     width: 20%;
+    height: 100%;
+    margin-right: 2rem;
+    text-decoration: none;
 }
+main>aside li{
+    text-decoration: none;
+    border: 1px solid black;
+    list-style: none;
+    padding: .5rem 2rem;
+    margin: .6rem;
+    text-align: center;
+}
+
 main>section{
     width: 60%;
 }
