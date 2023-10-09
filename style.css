@@ -45,7 +45,7 @@ main>aside li{
     text-align: center;
 }
 main>aside li a{
-    line-height: 1rem;
+    line-height: 2rem;
     text-align: center;
     display: inline-block;
     width: 100%;
@@ -54,6 +54,9 @@ main>aside li a{
 }
 main>aside li:hover{
     background-color: black;
+    transition: background-color .5s ease;
+}
+main>aside li:hover a{
     color: white;
 }
 
