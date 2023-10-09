@@ -39,9 +39,22 @@ main>aside li{
     text-decoration: none;
     border: 1px solid black;
     list-style: none;
-    padding: .5rem 2rem;
+    width: 15rem;
+    height: 2rem;
     margin: .6rem;
     text-align: center;
+}
+main>aside li a{
+    line-height: 1rem;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    text-decoration: none;
+    color: black;
+}
+main>aside li:hover{
+    background-color: black;
+    color: white;
 }
 
 main>section{
