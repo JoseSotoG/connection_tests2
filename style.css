@@ -5,12 +5,12 @@
     box-sizing: border-box;
 }
 .logo{
-    width: 6rem;
+    width: 4rem;
 }
 header{
     display: flex;
     justify-content: space-between;
-    padding:0 4rem;
+    padding:.5rem 4rem;
     background-color: rgb(48, 47, 47);
     align-items: center;
 }
@@ -22,7 +22,8 @@ header>ul{
     color: white;
 }
 header>ul>li{
-    margin: 2rem;
+    margin: 1.5rem;
+    line-height: 1rem;
 }
 main{
     display: flex;
